@@ -12,10 +12,10 @@ import java.util.List;
 public class Main {
 
     public static void main(String[]args) {
-        List<Testable> testables = new ArrayList<>();
-        testables.add(new ForTestable());
+        List<Testable> testableList = new ArrayList<>();
+        testableList.add(new ForTestable());
 
-        for (Testable testable : testables) {
+        for (Testable testable : testableList) {
             testable.test();
         }
     }
